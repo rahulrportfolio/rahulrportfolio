@@ -60,11 +60,12 @@ section p {
 }
 
 .project .vid{
-    float: right;
-}
-.project .vid .appVideoText{
-    text-align: center;
-    font-size: large;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+    width: 46%;
+    padding-bottom: 5%;
+    
 }
 
 
