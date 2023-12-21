@@ -59,6 +59,13 @@ section p {
     padding: 30px;
 }
 
+.project .vid{
+    float: right;
+}
+.project .vid .appVideoText{
+    text-align: center;
+}
+
 
 footer {
     background-color: #333;
