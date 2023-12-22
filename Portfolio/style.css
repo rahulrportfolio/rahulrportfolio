@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+.container .myWish{
+    font-family: 'Didot', cursive;
+    font-size: larger;
+}
+
 hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
