@@ -148,3 +148,21 @@ header .menubar {
   padding-right: 3px;
   border-radius: 10px;
 }
+.topnav{
+  position: relative;
+  float: right;
+  background-color: #444944;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add box-shadow for 3D effect */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.container .topnav:hover {
+  background-color: #444944;
+  transform: translateY(-2px);
+}
