@@ -163,6 +163,6 @@ header .menubar {
 }
 
 .container .topnav:hover {
-  background-color: #444944;
+  background-color: #3e7e8e;
   transform: translateY(-2px);
 }
