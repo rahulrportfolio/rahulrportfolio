@@ -11,11 +11,22 @@
 <body>
 
     <header>
-        <div class="container">
-            <h1>Rahul Ramjeawon</h1>
-            <p>BS Computer Science Major</p>
-            <p>Concentration in Machine Learning</p>
+        
         </div>
+            <div class="container" style="flex: 1;">
+                <h1>Rahul Ramjeawon</h1>
+                <p>BS Computer Science Major</p>
+                <p>Concentration in Machine Learning</p>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="#ios-app"><img src="smartphone.png" alt="app" class="menubar">IOS-app-Matrix-calculator</a>
+                    <a href="#game"><img src="joystick.png" alt="app" class="menubar">Save The Cookie Monster (game)</a>
+                    <a href="#Netflix"><img src="ribbon.png" alt="app" class="menubar">Netflix Database</a>
+                    <a href="#weather"><img src="cloudy.png" alt="app" class="menubar">What-To-Wear</a>
+                </div>
+
     </header>
 
     <section id="about">
@@ -61,7 +72,7 @@
         <div class="container">
             <h2>Portfolio</h2>
             <div class="project">
-                <img src="app.png" alt="Project 1" width="170" height="80">
+                <img src="app.png" alt="Project 1" width="170" height="80" id="ios-app">
                 <img src="app2.png" alt="Project 1" width="165" height="80" id="app">
                     <video class="vid" controls autoplay muted loop>
                         <source src="appdemo.mp4" type="video/mp4">
@@ -96,7 +107,7 @@
             <br>
 
             <div class="project">
-                <img src="cat.png" alt="Project 2" width="500" height="300">
+                <img src="cat.png" alt="Project 2" width="500" height="300" id="game">
                 <h3>Save The Cookie Monster</h3>
                 <p>   
                     A captivating <b>React app</b> centered around solving word puzzles to rescue our adorable feline friend, 
@@ -110,7 +121,7 @@
                 <hr class="rounded">
             </div>
 
-            <br>
+            <br id="Netflix" >
             
             <div class="project">
                 <h3>Netflix Database</h3>
@@ -126,7 +137,7 @@
             <br>
 
             <div class="project">
-                <img src="weather.png" alt="Project 3" width="500" height="300">
+                <img src="weather.png" alt="Project 3" width="500" height="300" id="weather">
                 <h3>What-To-Wear</h3>
                 <p>   
                     A simple automated script, that runs on startup. Starting with <b>ZSHELL (zsh)</b> scripting Language, I coded a script that would communicate with Apple's iMessage to send a text message to any phone number that is provided to the script.
