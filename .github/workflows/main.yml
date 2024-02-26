@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Check HTML/CSS/JS formatting
+      run: |
+        npm install -g htmlhint stylelint eslint   # Install necessary linters
+        htmlhint '**/*.html'                       # Check HTML files
+        stylelint '**/*.css' '**/*.scss'           # Check CSS files
+        eslint '**/*.js'                           # Check JavaScript files
+
+    - name: Build and test
+      run: |
+        # If you have any build or test commands, put them here.
+        # For example, if you use npm:
+        # npm install
+        # npm test
+
+    - name: Deploy
+      if: success()
+      run: |
+        # Add commands here to deploy your web project
+        # For example, if you want to deploy via FTP:
+        # apt-get install -y lftp  # Install lftp
+        # lftp -c "open -u $FTP_USER,$FTP_PASSWORD $FTP_SERVER; mirror -R ./ /path/to/remote/directory"
+
