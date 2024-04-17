@@ -1,0 +1,47 @@
+
+/* Header.css */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  background-color:rgba(255, 255, 255, 0.5); /* Adjust as needed */
+  color: #000000; /* Adjust as needed */
+  padding: 5px; 
+  backdrop-filter: blur(5px);
+}
+
+.fixed-header .text {
+  height:auto;
+  padding-left: 6%;
+  text-align: left;
+  font-size:x-large;
+  position:relative;
+}
+
+.me {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    padding: 50px;
+}
+
+.greeting {
+  padding-top: 3%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  height: 700px; /* Set the fixed height here */
+  margin-top: auto;
+  overflow: auto;
+
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
