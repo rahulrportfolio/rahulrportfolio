@@ -1,4 +1,3 @@
-
 import './App.css';
 import {Project, Bio, Home, NavBar, Contact} from './components';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
