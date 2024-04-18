@@ -11,7 +11,7 @@ export const Bio = () => {
     return (
         <div className="container" style={{paddingTop: 60}}>
             <section>
-                <img src={me} alt='' class="me"/> 
+                <img src={me} alt='' className="me"/> 
                 <h2 style={{fontSize: 40}}>About Me</h2>
                 <p className='bioFont'> 
                     As a computer science enthusiast, I'm on a mission to create cutting-edge products and solutions that not only make people's lives better but also keep them connected in innovative ways. 
@@ -102,7 +102,7 @@ export const Home = () => {
         
             <div className="greeting">
                 <section className="sec">
-                <img src={me} alt='' class="me"/>
+                <img src={me} alt='' className="me"/>
                     <h2 style={{color: "purple"}}>Hello!</h2>
                     <p>
                         <strong>
@@ -112,7 +112,7 @@ export const Home = () => {
                     </p>
                 </section>
             </div>
-            <hr class="rounded"/>
+            <hr className="rounded"/>
         </div>
     );
 };
@@ -122,7 +122,7 @@ export const Contact = () => {
     <section >
         <div className="container">
         <br/>
-        <hr class="rounded"/>
+        <hr className="rounded"/>
             <h2>Contact Me</h2>
             <div className="contact-links">
                 <strong>
