@@ -1,0 +1,38 @@
+.bioFont {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.vertical-line {
+  height: 100%;
+  flex: 1;
+  float: left;
+  padding-right: 3%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bioContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bioContainer > .bioText {
+  width: 70%;
+}
+
+.credContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-columns: auto;
+}

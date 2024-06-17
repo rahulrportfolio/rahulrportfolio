@@ -1,0 +1,38 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding-top: 65px;
+}
+
+.blockContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 800px;
+  height: 400px;
+  min-width: min-content;
+  min-height: min-content;
+  padding: 5px;
+  grid-auto-columns: auto;
+}
+
+.blockContainer > .textBox {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  min-width: min-content;
+  font-style: oblique;
+}
+
+.pojectImage {
+  height: 400px;
+  min-height: min-content;
+  border-radius: 0;
+}
